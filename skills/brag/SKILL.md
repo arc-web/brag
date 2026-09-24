@@ -105,6 +105,18 @@ When music is selected, include a compact `Music cue guidance` section: read the
 
 ## Step 3: Hand off to Hyperframes
 
+**Preflight:** the five domain skills below must already be installed. Only
+`hyperframes` and `hyperframes-cli` ship inside the `hyperframes` npm package —
+the other three are fetched from GitHub on demand, so a CLI-only install leaves
+this step with nothing to read. If any are missing:
+
+```bash
+npx hyperframes skills
+```
+
+Use `skills`, not `init`: `init` scaffolds a new video project into the current
+directory, which is not what you want mid-run.
+
 **Read:** The Hyperframes domain skills — `hyperframes-core`, `hyperframes-animation`, `hyperframes-creative`, `hyperframes-keyframes`, `hyperframes-cli`. /brag is its own workflow: do not enter the `hyperframes` entry-point intent interview or route into its generic promo / launch-video workflow.
 **Read:** [references/step-3-compose.md](references/step-3-compose.md)
 **Read:** [references/audio.md](references/audio.md)
